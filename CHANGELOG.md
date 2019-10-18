@@ -30,6 +30,17 @@
 * `nlb-test`: Runnable NLB example.
 * `rds-test`: Runnalbe RDS example.
 
+
+# v0.9.6
+
+### Summary
+
+* New module for associating existing AWS credentials with a Terraform Cloud workspace.
+
+### Modules
+
+* `tf-cloud-credentials`: Adds module
+
 # v0.9.3
 
 ### Summary
