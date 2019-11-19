@@ -5,6 +5,13 @@
 ### Modules
 
 ### Examples
+* `ad-ec2`: Demonstrate how an Windows EC2 instance seamlessly joins an Active directory when it gets newly spawned.
+* `ad-asg-different-vpc`: Demonstrate how an Windows EC2 instance in a
+  specific vpc seamlessly joins an Active directory (in a different
+  vpc) when it gets newly spawned.
+* `alb-test`: Runnable ALB example.
+* `nlb-test`: Runnable NLB example.
+* `rds-test`: Runnalbe RDS example.
 
 
 # v0.9.9
@@ -103,6 +110,9 @@ New feature for `asg` module and bugfix for `tf-cloud-credentials` module.
   You will need to _manually_ remove the conflicting route (which was created
   by the old inline route), for example in the AWS console, and then re-apply
   to add it back.
+* `alb`: Skeleton of ALB function.
+* `nlb`: Skeleton of NLB function.
+* `rds`: Skeleton of RDS function.
 
 ### Examples
 
@@ -122,7 +132,6 @@ New feature for `asg` module and bugfix for `tf-cloud-credentials` module.
 ### Examples
 
 * No changes.
-
 
 # v0.9.3
 
