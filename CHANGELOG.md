@@ -17,6 +17,8 @@
 * `alb`: Skeleton of ALB function.
 * `nlb`: Skeleton of NLB function.
 * `rds`: Skeleton of RDS function.
+* `vpc`: Added variable `domain_name` to enable setting a custom domain_name
+  in the VPC DHCP Options Set.
 
 ### Examples
 
